@@ -4,6 +4,8 @@ import { collections, productCollections } from "@/lib/db/schema";
 import { count, eq } from "drizzle-orm";
 import Link from "next/link";
 
+export const dynamic = "force-dynamic";
+
 const CollectionsPage = async () => {
   const allCollections = await db
     .select({
