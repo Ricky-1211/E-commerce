@@ -3,7 +3,6 @@ import { db } from "@/lib/db";
 import { collections, productCollections } from "@/lib/db/schema";
 import { count, eq } from "drizzle-orm";
 import Link from "next/link";
-import { Card } from "@/components";
 
 const CollectionsPage = async () => {
   const allCollections = await db

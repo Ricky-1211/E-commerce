@@ -38,7 +38,7 @@ const ContactPage = () => {
                 Get in touch
               </h1>
               <p className="mt-4 text-xl text-gray-400">
-                Have questions about our latest drops or need help with an order? We're here to help.
+                Have questions about our latest drops or need help with an order? We&apos;re here to help.
               </p>
             </div>
 
@@ -94,7 +94,7 @@ const ContactPage = () => {
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900">Message Sent!</h3>
                   <p className="mt-2 text-gray-500">
-                    Thank you for your message. We'll get back to you within 24 hours.
+                    Thank you for your message. We&apos;ll get back to you within 24 hours.
                   </p>
                   <button
                     onClick={() => setIsSuccess(false)}
